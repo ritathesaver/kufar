@@ -1,0 +1,19 @@
+.navbar {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 15%;
+	padding: 20px;
+	font-size: 25px;
+	height: 100vh;
+
+	background-color: #3f3f44;
+}
+
+.item a {
+	color: #f7f7f7;
+	text-decoration: none;
+}
+.item a.active {
+	color: #f0a500;
+}
