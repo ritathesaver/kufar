@@ -1,37 +1,7 @@
-<<<<<<< Updated upstream
-.app-wrapper {
-	display: flex;
-}
-
-.component {
-	display: flex;
-
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-
-	text-transform: uppercase;
-	font-size: 42px;
-	width: 85vw;
-}
-.first {
-	background-color: #654062;
-	color: #fbd46d;
-}
-.second {
-	background-color: #f1ebbb;
-	color: #b5076b;
-}
-.third {
-	font-size: 35px;
-	background-color: #74d4c0;
-	color: #9a1f40;
-=======
 .App-wrapper {
 	max-width: 1280px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-content: center;
->>>>>>> Stashed changes
 }

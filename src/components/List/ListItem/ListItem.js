@@ -20,9 +20,13 @@ const ListItem = ({ item = {} }) => {
 
 	return (
 		<div className="product-container">
-			<img className="img" src={item.thumb} />
+			<div className="img">
+				<img src={item.thumb} />
+			</div>
 			<div className="product_info">
-				<div className="info_header">{item.subject}</div>
+				<a href={item.ad_link} className="info_header">
+					{item.subject}
+				</a>
 				<div className="info_sub">
 					{item.params.category}, {item.params.condition}
 				</div>
